@@ -7,4 +7,8 @@ load all iamge files in a folder, resize to the predefined shape and save to one
 **imageAugmentation.py:** 
 Implement the image augmentation (rotate, flip, shade, or add noise). It run on python2 and Opencv functions\
 
-**makeYolov3Model.py** This function build a load the yolov3 weights file, integrate with the yolov3 structure in this function then create a yolov3 model to detect objects\
+**makeYolov3Model.py** This function loads the yolov3 weights file (ouput of a Yolov3 whose detection is for 4 classes), integrate with the yolov3 structure in this function then create a yolov3 model to detect objects\
+
+**cv_Yolov3Keras**
+This function loads yolov3 model (output of function makeYolov3Model.py) and detects 4 kinds of trained objects in a list of 20 images in folder testImg\
+
