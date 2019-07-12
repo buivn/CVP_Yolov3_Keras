@@ -12,3 +12,8 @@ Implement the image augmentation (rotate, flip, shade, or add noise). It run on 
 **cv_Yolov3Keras**
 This function loads yolov3 model (output of function makeYolov3Model.py) and detects 4 kinds of trained objects in a list of 20 images in folder testImg\
 
+**labelImg** 
+This folder contain a program to label the images, the number and name of the classes can be changed in .data file\
+
+**testImg** 
+This folder contains 20 images for testing\
