@@ -17,3 +17,6 @@ This folder contain a program to label the images, the number and name of the cl
 
 **testImg** 
 This folder contains 20 images for testing\
+
+**cv_Yolov3Camera.py** 
+This program can run Yolov3 with camera as data input. It requires package cv2 - OpenCV to run the program.\
